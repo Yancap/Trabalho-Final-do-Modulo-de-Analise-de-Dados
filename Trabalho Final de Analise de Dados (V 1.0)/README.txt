@@ -1,0 +1,16 @@
+LEIA PRIMEIRO.
+
+Esse é o projeto final do modulo de analise de dados do curso tecnico de Desenvolvimento de Sistemas
+da Fundação Bradesco, por conta de limitações do servidor, realizamos a integração Python e Javascript sem a 
+utilização de biblicotecas externas ou framework.
+
+Passo a Passo para abrir os arquivos
+
+1º abrir o arquivo "monitoramento.py"
+2º abrir o documento "index.htl"
+3º Permite os downloads dos arquivos txt pela pagina
+
+O metodo utilizado foi de fazer os JavaScript gerar documentos txt com o conteudo das pesquisa do usuario,
+dessa forma o Python lê, processa e gera as paginas de resultado de dos textos
+
+Versão 1.0

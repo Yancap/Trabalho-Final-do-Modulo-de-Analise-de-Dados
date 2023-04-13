@@ -1,0 +1,216 @@
+
+/* Abaixo criaremos as regras de estilo para os elementos da comunicação visual dos projetos web que desenvolveremos. Os
+Elementos são: COR, TIPOGRAFIA, IMAGEM e ESTRUTURA\*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*SELETOR UNIVERSAL*/
+* {
+  font-family:"roboto";
+  margin: 0px;
+}
+
+/* Inserir seletores especificos de estilização de texto
+(Elementos, IDs, Classes, pseudo-elementos e pseudo-classe)*/
+
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    padding: 40px 40px 0px 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+h4{
+  font-size: 1.5em;
+  color: white;
+  padding: 10px 20px;
+  margin: 0px;
+}
+
+
+
+
+nav{
+  overflow: hidden;
+  background-color: #00ff59;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(248, 248, 248);
+  margin: 0px 0px 0px 0px;
+}
+nav a {
+  float: left;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none ;
+  padding: 10px 20px;
+}
+
+
+
+/*Link*/
+nav a:hover{
+  color:rgb(255, 255, 255);
+  border-bottom:1px solid #fff ;
+  
+  
+}
+
+.logotipo img{
+  border:none;
+  height: 200px;;
+  width:600px;
+  margin: 90px;
+  font-weight: lighter;
+  text-align: center;
+  display: block;
+}
+
+
+.logotipo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.barrapesquisa{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.leftbar{
+  background-color: #ffffff;
+}
+
+.leftbar h2{
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.leftbar p{
+  color: #000;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.card{
+  
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  display: block;
+  margin: 50px;
+}
+h3{
+  text-align: start;
+}
+.text{
+  color: #000;
+  text-decoration: none;
+  
+}
+
+.text:hover{
+  color: #008020;
+}
+footer{
+  
+  color: white;
+  background-image: linear-gradient(to right, #008020,#00ff59);
+  padding: 20px;
+  display: flex;
+  margin-top: 22.5%;
+  flex-shrink: 0;
+  /*bottom: 0;*/
+  flex-direction: column;
+  
+}
+
+#footercreditos{
+  margin-left: 76%;
+}
+
+#botaocreditos{
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+#botaofbtech{
+  margin-right: 64%;
+}
+
+#barradepesquisa{
+  height:250px;
+  width:auto;
+  display: block;
+}
+
+#divBusca{
+  background-color:#64db9a;
+  border:solid 1px;
+  border-radius:15px;
+  width:350px;
+}
+
+.txtBusca{
+  float:left;
+  
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:36px;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 7px 0px 0px 7px;
+  border-right: 0px
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:38px;
+  border-radius:0 7px 7px 0;
+  width: 40px;
+  font-weight:bold;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+  border: 2px solid black;
+  border-radius: 0px 7px 7px 0px;
+  border-left: 0px
+}
+
+#divBusca img{
+  float: center;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+
+#send{
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 15%;
+  border: 0 none;
+  background-image: url(imagens/image.png);
+  right: 6%;
+}
